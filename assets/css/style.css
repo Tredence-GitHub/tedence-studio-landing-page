@@ -1766,3 +1766,35 @@ position: absolute;
     top: 0;
 	    max-width: 706px;
 }
+
+@media(max-width:1500px){
+	.abss{
+		max-width: 420px;
+	}
+	.tabsDiv {
+     margin-left: 29px;
+    margin-top: 50px;
+    
+}
+.customContent {
+    max-height: 380px;
+}
+.responsive-tabs li a {
+    font-size: 14px;
+}
+#header .logo h1 a, #header{
+	    font-size: 18px;
+}
+.nav-menu a{
+	font-size: 12px;
+}
+.section-title p{
+	font-size:18px;
+}
+.section-title h2{
+	font-size:12px;
+}
+.features .icon-box h3 a{
+	font-size:12px;
+}
+}
