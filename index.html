@@ -27,8 +27,8 @@
 
 <body>
 
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
+  <header id="header" class="fixed-top d-flex align-items-center header-scrolled">
+    <div class="container-fluid d-flex align-items-center">
 
       <div class="logo mr-auto">
         <h1 class="text-light"><a href="index.html"><span>Tredence Studio</span></a></h1>
@@ -69,22 +69,45 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" style="height: 100vh;">
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row" style="
-    top: 50%;
-    position: absolute;
-    display: block;
-    transform: translate(-50%,-50%);
-    max-width: 900px;
-    left: 50%;
-    text-align: center;
+     
 ">
-        <div class="col-lg-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
-          <div data-aos="zoom-out" class="aos-init aos-animate">
-            <h1>Tredence Studio</h1>
-            <h2>The Premier Destination For All Your Analytics Needs. <br>Accelerate your journey into the world of Data and AI</h2>
-            
-          </div>
+        <div class="col-lg-6 tabsDiv">
+           
+
+			  <ul class="nav nav-tabs responsive-tabs" >
+				<li class="active"><a href="#home1">Sancus </a></li>
+				<li><a href="#profile1">CPG 360'</a></li>
+				<li><a href="#messages1">Integrated ops planner</a></li>
+				<li><a href="#settings1">TPE</a></li>
+			  </ul>
+
+			  <div class="tab-content customContent" style="position: relative;">
+				<div class="tab-pane active" id="home1">
+				  <video width="100%"  loop="true" autoplay="autoplay"  id="vid" muted>
+					<source src="assets/videoplayback.mp4" type="video/mp4" />
+					<source src="assets/videoplayback.ogv" type="video/ogv" />
+					<source src="assets/videoplayback" type="video/webm" />
+				  </video>
+				</div>
+
+				<div class="tab-pane" id="profile1">
+				  <div class="placeholder-txt"><div class="placeholder-div">Video for CPG 360 Will be updated later</div> </div>
+				</div>
+
+				<div class="tab-pane" id="messages1">
+				    <div class="placeholder-txt"><div class="placeholder-div">Video for Integrated ops planner Will be updated later </div></div>
+				</div>
+
+				<div class="tab-pane" id="settings1">
+				  <div class="placeholder-txt"><div class="placeholder-div">Video for TPE Will be updated later </div></div>
+				</div>
+				 
+			  </div>
+		 
+		
+          
         </div>
         <!-- <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300"> -->
           <!-- <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> -->
@@ -100,44 +123,20 @@
   </section><!-- End Hero -->
 
   <main id="main">
-
+      
     <!-- ======= About Section ======= -->
     <section id="about2" class="about" style="padding-bottom:50px;">
       <div class="container-fluid">
 
         <div class="row" style="padding-left:20px;">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch"  style="overflow: hidden;    border-radius: 20px;" data-aos="fade-right">
-            <video class="Hero--hero__video--2z24w"  loop="true" autoplay="autoplay" >
-		      <source src="assets/noodle-ai-create-a-world-without-waste.mp4.mp4" type="video/mp4">		     
-		      <source src="file:///C:/Users/manojcho/Desktop/Bootslander/Bootslander/assets/noodle-ai-create-a-world-without-waste.mp4.ogg" type="video/ogg">		     
-		    </video>
+          <div class="col-xl-12 col-lg-12 "  style="overflow: hidden;    border-radius: 20px;" data-aos="fade-right">
+              <img src="assets/img/img.png" class="img-fluid">
+		  </div>
+		  <div class="col-xl-12 col-lg-12 "  style="overflow: hidden;    border-radius: 20px;" data-aos="fade-right">
+              <img src="assets/img/img_5.png" class="img-fluid">
 		  </div>
 
-          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-            <h3>Tredence Studio in action</h3>
-            <p>
-			From our products to our open-source platforms, we’re working to ensure that the benefits of Data Analytics  are accessible to everyone.
-			</p>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">Dine Pad</a></h4>
-              <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
-            </div>
-
-          </div>
+           
         </div>
 
       </div>
@@ -156,8 +155,8 @@
           <div class="col-lg-3 col-md-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
               <i class="ri-store-line" style="color: #ffbb2c;"></i>
-              <h3><a href="">Longer-Term
-				<div><small>longer-term, strategic projects</small></div>
+              <h3><a href="">Interactive Web Interface
+				 
 				</a></h3>
             </div>
           </div>
@@ -165,76 +164,48 @@
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
               <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
               <h3>
-				<a href="">High Adoption
-					<div><small>Pay for users who are realizing value</small></div>
+				<a href="">Cloud Based Architecture 
+					 
 				</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
               <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-              <h3><a href="">Turnaround Time <div><small>Shorter Turnaround Time for Insights</small></div></a></h3>
+              <h3><a href="">Scalable AI models</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
               <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-              <h3><a href="">Value Realization<div><small>Set up your data From Day One</small></div></a></h3>
+              <h3><a href="">Prebuilt Data Pipelines</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
               <i class="ri-database-2-line" style="color: #47aeff;"></i>
-              <h3><a href="">All Your Data<div><small>Directly from the Source</small></div></a></h3>
+              <h3><a href="">Preloaded data infrastructure</a></h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
               <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-              <h3><a href="">Eiusmod Tempor</a></h3>
+              <h3><a href="">Custom Algorithms</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
+          <div class="col-lg-4 col-md-4 mt-4">
             <div class="icon-box" data-aos="zoom-in" data-aos-delay="350">
               <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-              <h3><a href="">Midela Teren</a></h3>
+              <h3><a href="">Best in class business solutioning</a></h3>
             </div>
           </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
-              <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-              <h3><a href="">Pira Neve</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
-              <i class="ri-anchor-line" style="color: #b2904f;"></i>
-              <h3><a href="">Dirada Pack</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
-              <i class="ri-disc-line" style="color: #b20969;"></i>
-              <h3><a href="">Moton Ideal</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
-              <i class="ri-base-station-line" style="color: #ff5828;"></i>
-              <h3><a href="">Verdo Park</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
-              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-              <h3><a href="">Flavor Nivelanda</a></h3>
-            </div>
-          </div>
+           
         </div>
 
       </div>
     </section><!-- End Features Section -->
- <!-- ======= Gallery Section ======= -->
+ <!-- ======= Gallery Section ======= 
+ 
     <section id="gallery2" class="gallery">
       <div class="container">
 
@@ -318,56 +289,10 @@ And resolve complex business problems across the decision value chain using data
         </div>
 
       </div>
-    </section><!-- End Gallery Section -->
+    </section> -->
 
 
-    <!-- ======= Details Section ======= -->
-    <section id="details2" class="details"  style="background:#efeff3">
-      <div class="container">
-
-        <div class="row content" style="align-items: center;">
-          <div class="col-md-4" data-aos="fade-right">
-            <img src="assets/img/details-1.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-md-8 pt-4" data-aos="fade-up">
-            <h3>Leading with research</h3>
-            <p class="font-italic">
-              Our research groups are advancing the state of the art in computer science and making discoveries that empower billions of users every day.
-			</p>
-            <div class="text-center text-lg-left">
-              <a href="#about" class="btn-get-started scrollto">See our research</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="row content"> -->
-          <!-- <div class="col-md-4 order-1 order-md-2" data-aos="fade-left"> -->
-            <!-- <img src="assets/img/details-2.png" class="img-fluid" alt=""> -->
-          <!-- </div> -->
-          <!-- <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up"> -->
-            <!-- <h3>Corporis temporibus maiores provident</h3> -->
-            <!-- <p class="font-italic"> -->
-              <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore -->
-              <!-- magna aliqua. -->
-            <!-- </p> -->
-            <!-- <p> -->
-              <!-- Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate -->
-              <!-- velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in -->
-              <!-- culpa qui officia deserunt mollit anim id est laborum -->
-            <!-- </p> -->
-            <!-- <p> -->
-              <!-- Inventore id enim dolor dicta qui et magni molestiae. Mollitia optio officia illum ut cupiditate eos autem. Soluta dolorum repellendus repellat amet autem rerum illum in. Quibusdam occaecati est nisi esse. Saepe aut dignissimos distinctio id enim. -->
-            <!-- </p> -->
-          <!-- </div> -->
-        <!-- </div> -->
-
-         
-
-        
-
-      </div>
-    </section><!-- End Details Section -->
-
+ 
    
 
    
@@ -381,7 +306,7 @@ And resolve complex business problems across the decision value chain using data
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-6 col-md-6">
             <div class="footer-info">
               <h3>Tredence Studio</h3>
               <p class="pb-3"><em>Scalable Analytics Solutions</em></p>
@@ -400,7 +325,7 @@ And resolve complex business problems across the decision value chain using data
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -411,7 +336,7 @@ And resolve complex business problems across the decision value chain using data
             </ul>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Manufacturing</a></li>
@@ -422,14 +347,7 @@ And resolve complex business problems across the decision value chain using data
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
+          
 
         </div>
       </div>
@@ -459,7 +377,59 @@ And resolve complex business problems across the decision value chain using data
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+   <script>
+ 
+	! function($) {
+    "use strict";
+    var a = {
+        accordionOn: ["xs"]
+    };
+    $.fn.responsiveTabs = function(e) {
+        var t = $.extend({}, a, e),
+            s = "";
+        return $.each(t.accordionOn, function(a, e) {
+            s += " accordion-" + e
+        }), this.each(function() {
+            var a = $(this),
+                e = a.find("> li > a"),
+                t = $(e.first().attr("href")).parent(".tab-content"),
+                i = t.children(".tab-pane");
+            a.add(t).wrapAll('<div class="responsive-tabs-container" />');
+            var n = a.parent(".responsive-tabs-container");
+            n.addClass(s), e.each(function(a) {
+                var t = $(this),
+                    s = t.attr("href"),
+                    i = "",
+                    n = "",
+                    r = "";
+                t.parent("li").hasClass("active") && (i = " active"), 0 === a && (n = " first"), a === e.length - 1 && (r = " last"), t.clone(!1).addClass("accordion-link" + i + n + r).insertBefore(s)
+            });
+            var r = t.children(".accordion-link");
+            e.on("click", function(a) {
+                a.preventDefault();
+                var e = $(this),
+                    s = e.parent("li"),
+                    n = s.siblings("li"),
+                    c = e.attr("href"),
+                    l = t.children('a[href="' + c + '"]');
+                s.hasClass("active") || (s.addClass("active"), n.removeClass("active"), i.removeClass("active"), $(c).addClass("active"), r.removeClass("active"), l.addClass("active"))
+            }), r.on("click", function(t) {
+                t.preventDefault();
+                var s = $(this),
+                    n = s.attr("href"),
+                    c = a.find('li > a[href="' + n + '"]').parent("li");
+                s.hasClass("active") || (r.removeClass("active"), s.addClass("active"), i.removeClass("active"), $(n).addClass("active"), e.parent("li").removeClass("active"), c.addClass("active"))
+            })
+        })
+    }
+}(jQuery);
 
+
+$('.responsive-tabs').responsiveTabs({
+    								     accordionOn: ['xs', 'sm']
+									});
+
+   </script>
 </body>
 
 </html>
